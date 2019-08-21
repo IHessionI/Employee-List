@@ -1,0 +1,92 @@
+th, tr, td{
+  border: 1px solid grey;
+  width:20%;
+}
+table.employ{
+  border-spacing: 0;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0;
+  width:60%;
+  margin:auto;
+}
+label, input{
+  display: block;
+}
+input{
+  margin-bottom: 10px;
+  width:80%;
+  margin:auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: grey;
+}
+label{
+  margin-left:10%;
+}
+form{
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 15px;
+  width: 30%;
+}
+h1{
+  margin-left:30%;
+  font-family: sans-serif;
+}
+button.back{
+  float:right;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom:5px;
+  border-style: solid;
+  margin-right:20px;
+}
+button.add{
+  color:white;
+  border-radius: 5px;
+  background-color: #73a2ff;
+  margin-bottom:5px;
+  border-style: solid;
+  margin-right:20px;
+  border-color: blue;
+  width:5%;
+  margin-left:20%;
+}
+button.update{
+  margin-left:10%;
+  border-radius: 10px;
+  background-color: white;
+  border-style: solid;
+}
+button.save{
+  margin-left:10%;
+  border-radius: 10px;
+  background-color: white;
+  border-bottom:5px;
+}
+button.edit{
+  width:30%;
+  margin: 0 10px;
+  background-color:#06D602;
+  color: white;
+  border-color:green;
+  border-radius:5px;
+  border-style: solid;
+}
+button.delete{
+  width:30%;
+  margin: 0 10px;
+  background-color: red;
+  color: white;
+  border-color:#DC2700;
+  border-radius:5px;
+  border-style: solid;
+}
+section.delete{
+  width:30%;
+  border: 1px black solid;
+  margin:auto;
+  text-align: center;
+  border-radius: 10px;
+}
