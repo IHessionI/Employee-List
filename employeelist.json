@@ -1,0 +1,24 @@
+{
+  "employee": [
+    {
+      "firstname": "Daera",
+      "lastname": "Venlee",
+      "address": "Merton"
+    },
+    {
+      "firstname": "Hurricane",
+      "lastname": "Katrina",
+      "address": "Merton"
+    },
+    {
+      "firstname": "Falstaer",
+      "lastname": "Ianzaphir",
+      "address": "Orilon"
+    },
+    {
+      "firstname": "Vamyr",
+      "lastname": "Faldelbon",
+      "address": "Skerness"
+    }
+  ]
+}

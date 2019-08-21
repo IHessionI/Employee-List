@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="list">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Company Users</title>
+  </head>
+  <body ng-controller="listcontroller">
+    <a href="pages/add.html"><button name="addpage" class="add">Add</button></a>
+    <employee info="emlist"></employee>
+    <!-- Modules -->
+    <script src="js/list.js"></script>
+    <!-- Controllers -->
+    <script src="js//controllers/listcontroller.js"></script>
+    <!-- Directives -->
+    <script src="js/directives/employee.js"></script>
+    <!-- Services -->
+    <script src="js/services/employed.js"></script>
+  </body>
+</html>
