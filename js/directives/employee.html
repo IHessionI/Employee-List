@@ -1,0 +1,12 @@
+<table class="employ">
+  <tr>
+    <th>Firstname</th><th>Lastname</th><th>Address</th><th>Action</th>
+  </tr>
+  <tr ng-repeat="employee in emlist">
+    <td>{{employee.firstname}}</td><td>{{employee.lastname}}</td><td>{{employee.address}}</td>
+    <td>
+      <a href="pages/edit.html"><button name="edit" text="Edit" class="edit">Edit</button></a>
+      <a href="pages/delete.html"><button name="delete" class="delete" style="float:right;">Delete</button></a>
+    </td style="width:40%">
+  </tr>
+</table>
